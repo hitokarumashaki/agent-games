@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/
+*.log
+# Circuit binaries are platform artifacts (2 MB) — not committed.
+# Download them on each machine/deploy with: npm run circuits
+# (verification_key.json + circuit-info.json ARE committed.)
+circuits/*.wasm
+circuits/*.zkey
